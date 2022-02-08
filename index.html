@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Farouk-CV" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>farouk-cv</title>
+    <link
+      rel="shortcut icon"
+      href="img/fingerprint-solid.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/ff664abb7d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="home">
+      <div class="canvas" id="particles-js">
+        <nav>
+          <div class="container">
+            <div class="nav">
+              <div class="logo">
+                <i class="fas fa-fingerprint"></i>
+              </div>
+              <div class="list-holder">
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#news">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="hero-content">
+          <div class="img-holder">
+            <img src="img/my-pic1.jpg" alt="farouk" />
+          </div>
+          <div class="name-holder">
+            <h1>FAROUK <span>KHAIRY</span></h1>
+          </div>
+          <div class="text-holder">
+            <p><!--text in JS--></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--strat about section-->
+    <section id="about">
+      <div class="container">
+        <div class="about">
+          <div class="title">
+            <span>SP Specialist </span>
+            <h2>About Me</h2>
+          </div>
+          <div class="inner-data">
+            <div class="left">
+              <div class="img-holder">
+                <div class="border"></div>
+                <div class="img">
+                  <img src="img/about.JPG" alt="farouk" />
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <h2>
+                I'm Farouk Khairy and <span><!--text in JS--></span>
+              </h2>
+              <p>
+                Hi! My name is <span>Farouk Khairy</span>, i'm a student in the last year at the Faculty of Specific Education. I am a website developer and a special education teacher. I look forward to developing my skills in both fields and helping disabled students with what I can do.
+              </p>
+              <ul>
+                <li>
+                  <span>
+                    <i class="fas fa-birthday-cake"></i>
+                  </span>
+                  <p>Birthday: <span>16.4.1998</span></p>
+                </li>
+                <li>
+                  <span><i class="fas fa-calendar-alt"></i></span>
+                  <p>Age: <span id="age"></span></p>
+                </li>
+                <li>
+                  <span><i class="fas fa-map-marker-alt"></i></span>
+                  <p>Location: <span> El-Shrouk City, Cairo, Egypt</span></p>
+                </li>
+                <li>
+                  <span><i class="fas fa-gamepad"></i></span>
+                  <p>Interests: <span>Programming, Reading, Designing</span></p>
+                </li>
+                <li>
+                  <span>
+                    <i class="fas fa-book-reader"></i>
+                  </span>
+                  <p>Study: <span>Ain-Shams University</span></p>
+                </li>
+                <li>
+                  <span><i class="fas fa-graduation-cap"></i></span>
+                  <p>Degree: <span>BA</span></p>
+                </li>
+                <li>
+                  <span><i class="fas fa-paper-plane"></i></span>
+                  <p>Mail: <span>faroukkhairy27@gmail.com</span></p>
+                </li>
+                <li>
+                  <span><i class="fas fa-phone-alt"></i></span>
+                  <p>Phone: <span>+20-109-5132145</span></p>
+                </li>
+              </ul>
+              <a href="#"><span>Download CV</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Start skills Section-->
+    <section id="skills">
+      <div class="container">
+        <div class="skills">
+          <div class="title">
+            <span>Services</span>
+            <h2>My Skills</h2>
+          </div>
+          <div class="skills-container">
+            <div class="skill">
+              <h3>Web Development</h3>
+              <span>HTML</span>
+              <div class="bar"><span class="html">90%</span></div>
+              <span>CSS</span>
+              <div class="bar"><span class="css">90%</span></div>
+              <span>Bootstrap</span>
+              <div class="bar"><span class="bs">60%</span></div>
+              <span>JavaScript</span>
+              <div class="bar"><span class="js">60%</span></div>
+            </div>
+            <div class="skill">
+              <h3>Graphic Design</h3>
+              <span>Photoshop</span>
+              <div class="bar"><span class="ps">80%</span></div>
+              <span>Illustrator</span>
+              <div class="bar"><span class="ai">70%</span></div>
+              <span>XD</span>
+              <div class="bar"><span class="xd">50%</span></div>
+            </div>
+            <div class="skill">
+              <h3>Instructional Design</h3>
+              <span>Storyline</span>
+              <div class="bar"><span class="st">60%</span></div>
+              <span>Flippdf</span>
+              <div class="bar"><span class="fp">60%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Portfolio-->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="title">
+          <span>PORTFOLIO</span>
+          <h2>Featured Works</h2>
+        </div>
+        <div class="items">
+          <div class="navigation-bar">
+            <ul>
+              <li data-cont="#web-dev"><span>Web Development</span></li>
+              <li data-cont="#graphic"><span>Graphic Design</span></li>
+              <!-- <li data-cont="#edu"><span>Instructional Design</span></li> -->
+            </ul>
+          </div>
+          <div class="items-holder">
+            <div id="web-dev">
+              <div class="item">
+                <div class="img">
+                  <div class="img">
+                    <img src="img/Screenshot 2022-02-08 183327.png" alt="screen" />
+                  </div>
+                </div>
+                <span
+                  ><a
+                    href="https://relaxed-mccarthy-114a76.netlify.app/"
+                    target="_blank"
+                    >Memory game</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div id="graphic">
+              <div class="item">
+                <div class="img">
+                  <img src="img/21022459.jpg" alt="img" />
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="img/DTP-shipping-solutions.jpg" alt="img" />
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="img/EL-Qaed-real-estate-Mockup2.jpg" alt="img" />
+                </div>
+              </div>
+            </div>
+            <!-- <div id="edu">
+              <div class="item">edu Item 1</div>
+              <div class="item">edu Item 2</div>
+              <div class="item">edu Item 3</div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Start news section-->
+    <section id="news" class="news">
+      <div class="container">
+        <div class="title">
+          <span>NEWS</span>
+          <h2>Latest News</h2>
+        </div>
+        <div class="inner-news">
+          <h2>No Articles Yet</h2>
+          <!-- <div class="art">
+            <span><i class="fas fa-chalkboard-teacher"></i></span>
+            <h3>Article 1</h3>
+          </div> -->
+
+          
+      </div>
+    </section>
+    <!--End news section-->
+    
+    <!--Start footer section-->
+    <footer>
+      <div class="inner">
+        <div class="container">
+          <div class="content">
+            <div class="right-text">
+              &#169; Copyright 2021-2022. All rights are reseved.
+            </div>
+            <div class="links">
+              <div class="fb">
+                <a
+                  href="https://www.facebook.com/mesh.faroukhegazy"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </div>
+              <div class="github">
+                <a href="https://github.com/farouk-kh" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+              <div class="linkedin">
+                <a
+                  href="https://www.linkedin.com/in/farouk-khairy-778598230/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End footer section-->
+    <script src="js/particles.js"></script>
+    <script src="js/particles-app.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
